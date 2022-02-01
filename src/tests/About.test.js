@@ -35,6 +35,7 @@ describe(' Teste o componente <About.js />', () => {
 
     expect(imagem).toBeInTheDocument();
     expect(imagem).toHaveAttribute('alt', 'Pokédex');
-    expect(imagem).toHaveAttribute('src', 'https://cdn2.bulbagarden.net/upload/thumb/8/86/Gen_I_Pok%C3%A9dex.png/800px-Gen_I_Pok%C3%A9dex.png');
+    expect(imagem).toHaveAttribute('src',
+      'https://cdn2.bulbagarden.net/upload/thumb/8/86/Gen_I_Pok%C3%A9dex.png/800px-Gen_I_Pok%C3%A9dex.png');
   });
 });
