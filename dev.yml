@@ -1,5 +1,4 @@
 ignore_files:
-  - stryker/
   - src/components/
   - src/services/
   - src/types/
@@ -14,6 +13,5 @@ ignore_files:
   - .stylelintrc.json
   - .stylelintignore
   - .gitignore
-  - stryker.conf.json
   - README.md
   
